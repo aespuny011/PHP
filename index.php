@@ -1,4 +1,11 @@
 <?php
+//PREGUNTAS CORTAS:
+//1. En listarLibros() has usado query() en un caso y prepare() en otro. ¿Por qué? ¿Qué pasaría si escribieras $pdo->query("SELECT * FROM libros WHERE genero = '$genero'") y alguien enviara genero=' OR '1'='1?
+//RESPUESTA 1:
+//2. ¿Qué devuelve execute()? ¿Dónde están entonces las filas del resultado?
+//RESPUESTA 2:
+//3. Pulsa dos veces seguidas Prestar en el mismo libro (por ejemplo, abriendo el listado en dos pestañas). ¿Qué devuelve rowCount() la segunda vez y por qué?
+//RESPUESTA 3:
 
 //Inicialización entorno
 ini_set('display_errors', 1);
